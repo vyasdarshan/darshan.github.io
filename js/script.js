@@ -48,7 +48,7 @@ $(document).ready(function () {
         showCursor: false,
         onComplete: function () {
           new Typed(".location-text", {
-            strings: ["Bengaluru, India"],
+            strings: ["Toronto, Canada"],
             typeSpeed: 60,
             loop: false,
             startDelay: 0,
@@ -255,7 +255,7 @@ function showAboutIntroductionTexts() {
   if (!aboutSectionEntered) {
     new Typed("#work", {
       strings: [
-        "Currently working @ <span class = 'color-primary'>Dailyrounds/Marrow, ex-Spacebasic Inc., ex-Infosys</span>",
+        "Currently working @ <span class = 'color-primary'>TVO.me, ex-Cognizant, ex-Carelon Global Solutions</span>",
       ],
       typeSpeed: 20,
       loop: false,
@@ -264,7 +264,7 @@ function showAboutIntroductionTexts() {
       onComplete: function () {
         new Typed(".office-text", {
           strings: [
-            "Devoting office hours into developing the Marrow app.",
+            "During my work hours, I focus on developing the Tvo Today and Learning app.",
           ],
           typeSpeed: 50,
           loop: false,
@@ -273,7 +273,7 @@ function showAboutIntroductionTexts() {
           onComplete: function () {
             new Typed(".spare-text", {
               strings: [
-                "In my spare time, I <span class = 'color-primary'>develop</span> iOS apps and <span class = 'color-primary'>explore</span> tech.",
+                "In my spare time, I <span class = 'color-primary'>develop</span> iOS/React-Native apps and <span class = 'color-primary'>explore</span> tech.",
               ],
               typeSpeed: 50,
               loop: false,
@@ -282,7 +282,7 @@ function showAboutIntroductionTexts() {
               onComplete: function () {
                 new Typed(".language-text", {
                   strings: [
-                    "I code in Swift, and Python",
+                    "I code in Swift, Objective-C, React-Native, React-Hooks, Javascript, TypeScript, JSX, HTML5, CSS",
                   ],
                   typeSpeed: 50,
                   loop: false,
@@ -291,51 +291,12 @@ function showAboutIntroductionTexts() {
                   onComplete: function () {
                     new Typed(".hobby-text", {
                       strings: [
-                        "I <span class = 'color-primary'>love</span> to talk about <span class = 'color-primary'>iOS</span>, <span class = 'color-primary'>technology</span> and <span class = 'color-primary'>life</span>.",
+                        "I <span class = 'color-primary'>love</span> to talk about <span class = 'color-primary'>iOS/React-Native</span>, <span class = 'color-primary'>technology</span> and <span class = 'color-primary'>life</span>.",
                       ],
                       typeSpeed: 50,
                       loop: false,
                       startDelay: 0,
                       showCursor: false,
-                      onComplete: function () {
-                        new Typed(".game-text", {
-                          strings: [
-                            "",
-                          ],
-                          typeSpeed: 50,
-                          loop: false,
-                          startDelay: 0,
-                          showCursor: false,
-                          onComplete: function () {
-                            new Typed(".contribution-text", {
-                              strings: [
-                                "I've recently created an <a href='https://www.instagram.com/shubham_iosdev/' target='_blank'><span class = 'color-palatte-4'> Instagram</span></a> handle to share my knowledge, connect with awesome people, and help other developers with iOS dev.",
-                              ],
-                              typeSpeed: 30,
-                              loop: false,
-                              startDelay: 0,
-                              showCursor: false,
-                              onComplete: function () {
-                                new Typed(".motto", {
-                                  strings: [
-                                    "My long term goal is to develop something that makes a difference in people's life.",
-                                  ],
-                                  typeSpeed: 50,
-                                  loop: false,
-                                  startDelay: 0,
-                                  showCursor: false,
-                                  onComplete: function () {
-                                    $(".grid-data").addClass("flip-in-x");
-                                    $(".services-header ").addClass(
-                                      "flip-in-x"
-                                    );
-                                  },
-                                });
-                              },
-                            });
-                          },
-                        });
-                      },
                     });
                   },
                 });
