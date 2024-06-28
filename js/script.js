@@ -33,7 +33,7 @@ $(document).ready(function () {
   });
 
   new Typed(".typed", {
-    strings: ["iOS Developer"],
+    strings: ["iOS/React-Native Developer"],
     typeSpeed: 60,
     loop: false,
     startDelay: 800,
@@ -263,9 +263,7 @@ function showAboutIntroductionTexts() {
       showCursor: false,
       onComplete: function () {
         new Typed(".office-text", {
-          strings: [
-            "During my work hours, I focus on developing the Tvo Today and Learning app.",
-          ],
+          strings: [""],
           typeSpeed: 50,
           loop: false,
           startDelay: 0,
@@ -282,7 +280,7 @@ function showAboutIntroductionTexts() {
               onComplete: function () {
                 new Typed(".language-text", {
                   strings: [
-                    "I code in Swift, Objective-C, React-Native, React-Hooks, Javascript, TypeScript, JSX, HTML5, CSS",
+                    "I code in Swift, SwiftUI, Objective-C, React-Native, React-Hooks, Javascript, TypeScript, JSX, HTML5, CSS",
                   ],
                   typeSpeed: 50,
                   loop: false,

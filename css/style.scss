@@ -29,6 +29,7 @@ h2 {
   font-family: "Nanum Gothic Coding", monospace;
 }
 
+
 .color-primary {
   color: $color-primary;
 }
@@ -264,7 +265,7 @@ h2 {
 
 .aboutImage {
   max-width: 95%;
-  border-radius: 20%;
+  border-radius: 50%;
 }
 
 .aboutInfo {
@@ -1171,3 +1172,4 @@ h2 {
     transform: perspective(400px);
   }
 }
+
