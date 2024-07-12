@@ -88,7 +88,17 @@ $(document).ready(function () {
     $(".items").removeClass("large");
     $(this).addClass("current");
 
+    if (this.innerHTML == "ALL") {
+      console.log("All items selected");
+      $(".items").addClass("large");
+    }
+
     if (this.innerHTML == "IOS") {
+      console.log("found");
+      $(".items").addClass("large");
+    }
+
+    if (this.innerHTML == "REACT") {
       console.log("found");
       $(".items").addClass("large");
     }
